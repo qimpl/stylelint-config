@@ -1,0 +1,41 @@
+{
+  "name": "@qimpl/stylelint-config",
+  "version": "0.0.1",
+  "description": "Qimpl stylelint shared config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qimpl/stylelint-config.git"
+  },
+  "author": "Robin Baraffe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qimpl/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/qimpl/stylelint-config#readme",
+  "keywords": [
+    "css",
+    "stylelint",
+    "config",
+    "styled-component",
+    "lint"
+  ],
+  "peerDependencies": {
+    "stylelint": "^13.11.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^4.1.0",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.11.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-order": "^4.1.0",
+    "stylelint-processor-styled-components": "^1.10.0"
+  }
+}
