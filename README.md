@@ -1,16 +1,18 @@
 # Qimpl Stylelint config
 
-Qimpl stylelint shared configuration
+Qimpl Stylelint shared configuration
 
 [![NPM](https://img.shields.io/npm/v/@qimpl/stylelint-config.svg)](https://www.npmjs.com/package/@qimpl/stylelint-config)
 
 # Usage
 
+```sh
 npx install-peerdeps --dev @qimpl/stylelint-config
+```
 
 ## Default
 
-There is the `.stylelintrc.js` for default usage
+`.stylelintrc.js` content to use default config
 
 ```js
 module.exports = {
@@ -20,10 +22,10 @@ module.exports = {
 
 ## Styled component
 
-There is the `.stylelintrc.js` for styled-component
+There is the `.stylelintrc.js` needed when using styled-component
 
 ```js
 module.exports = {
-  extends: '@qimpl/stylelint-config/styled-component',
+  extends: '@qimpl/stylelint-config/styled-components',
 };
 ```
